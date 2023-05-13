@@ -18,6 +18,14 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
+    <user userName="fernando.baquero">
+      <firstName>Fernando</firstName>
+      <lastName>Baquero</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="cliente">
@@ -25,6 +33,9 @@
     </role>
     <role name="empleado">
       <displayName>Empleado</displayName>
+    </role>
+    <role name="inspector">
+      <displayName>Inspector</displayName>
     </role>
   </roles>
   <groups>
@@ -45,11 +56,18 @@
     <membership>
       <userName>maria.lacañina</userName>
       <roleName>cliente</roleName>
-      <groupName>pescaderia</groupName>
+      <groupName>clientes</groupName>
+      <groupParentPath>/pescaderia</groupParentPath>
     </membership>
     <membership>
       <userName>carmen.malia</userName>
       <roleName>empleado</roleName>
+      <groupName>trabajadores</groupName>
+      <groupParentPath>/pescaderia</groupParentPath>
+    </membership>
+    <membership>
+      <userName>fernando.baquero</userName>
+      <roleName>inspector</roleName>
       <groupName>trabajadores</groupName>
       <groupParentPath>/pescaderia</groupParentPath>
     </membership>
