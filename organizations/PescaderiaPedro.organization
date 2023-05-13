@@ -26,6 +26,12 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
+    <user userName="Setefilla Ruano">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="cliente">
@@ -70,6 +76,11 @@
       <roleName>inspector</roleName>
       <groupName>trabajadores</groupName>
       <groupParentPath>/pescaderia</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Setefilla Ruano</userName>
+      <roleName>empleado</roleName>
+      <groupName>pescaderia</groupName>
     </membership>
   </memberships>
 </organization:Organization>
