@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applications xmlns="http://documentation.bonitasoft.com/application-xml-schema/1.0">
+    <application token="solicitud-pedidos" version="1.0" profile="User" homePage="solicitud-pedidos" state="ACTIVATED" layout="custompage_layoutBonita" theme="custompage_themeBonita">
+        <displayName>Aplicación de solicitudes de pedidos</displayName>
+        <applicationPages>
+            <applicationPage customPage="custompage_SeguimientoDePedidos" token="solicitud-pedidos"/>
+        </applicationPages>
+        <applicationMenus>
+            <applicationMenu applicationPage="solicitud-pedidos">
+                <displayName>Seguimiento de las solicitudes de pedidos</displayName>
+            </applicationMenu>
+        </applicationMenus>
+    </application>
+</applications>
