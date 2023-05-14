@@ -34,6 +34,14 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
+    <user userName="juan.garcia">
+      <firstName>Juan</firstName>
+      <lastName>Garcia</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="cliente">
@@ -45,8 +53,8 @@
     <role name="inspector">
       <displayName>Inspector</displayName>
     </role>
-    <role name="control">
-      <displayName>Control</displayName>
+    <role name="atencion.cliente">
+      <displayName>AtenciónCliente</displayName>
     </role>
   </roles>
   <groups>
@@ -90,6 +98,11 @@
       <roleName>empleado</roleName>
       <groupName>trabajadores</groupName>
       <groupParentPath>/pescaderia</groupParentPath>
+    </membership>
+    <membership>
+      <userName>juan.garcia</userName>
+      <roleName>atencion.cliente</roleName>
+      <groupName>pescaderia</groupName>
     </membership>
   </memberships>
 </organization:Organization>
