@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.3",
-  "id" : "comentarEncuesta",
-  "name" : "comentarEncuesta",
-  "lastUpdate" : 1684078920400,
+  "id" : "inspeccionMercancia",
+  "name" : "inspeccionMercancia",
+  "lastUpdate" : 1684079753559,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "85815618-2078-4edc-a666-48b9f8f5164a",
+        "reference" : "78d30df8-5a93-4903-85ad-9f0afa6596f0",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "59bb674a-9029-415f-b54e-bddcf215ff1c",
+              "reference" : "a6e6cb5a-47e0-443b-82a0-7d5d59821c63",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -98,7 +98,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "bda5169c-86bb-4997-8bc5-50f947d676a9",
+              "reference" : "19bfa535-09fb-496f-9bac-a71b3152ea72",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -114,7 +114,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "3d797a03-bf20-49e9-a59c-12251bd7f6fe",
+        "reference" : "4d38959d-5b60-460e-b7b4-c43116ed370a",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,7 +123,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "b250f8e2-2a40-4ff2-a326-fb907ba37e18",
+          "reference" : "629910af-4867-42d3-9790-65a410a9deaa",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -151,7 +151,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Encuesta"
+                    "value" : "Inspección de calidad de la mercancía"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -160,9 +160,13 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
                   }
                 },
-                "reference" : "87d77ea1-2495-427f-88fa-e1711d8d6434",
+                "reference" : "073a4841-17ea-49e2-989b-357960861df0",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -194,7 +198,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "80393a40-6acc-4bfa-94f7-acf20bca501a",
+                "reference" : "85054744-d82c-4cf6-94a2-5fb685b15770",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -208,250 +212,6 @@
                         "lg" : 12
                       },
                       "propertyValues" : {
-                        "allowHtml" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Id Producto"
-                        },
-                        "text" : {
-                          "type" : "interpolation",
-                          "value" : "{{encuesta.idProducto}}"
-                        },
-                        "alignment" : {
-                          "type" : "constant",
-                          "value" : "left"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 4
-                        }
-                      },
-                      "reference" : "ed60ba44-e36c-4ea7-9e3b-2131c0ceff90",
-                      "hasValidationError" : false,
-                      "id" : "pbText",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "allowHtml" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Valoracion"
-                        },
-                        "text" : {
-                          "type" : "interpolation",
-                          "value" : "{{encuesta.valoracion}}"
-                        },
-                        "alignment" : {
-                          "type" : "constant",
-                          "value" : "left"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 4
-                        }
-                      },
-                      "reference" : "5545fee5-5c26-4fac-9948-f92efec033d2",
-                      "hasValidationError" : false,
-                      "id" : "pbText",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "allowHtml" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Comentario"
-                        },
-                        "text" : {
-                          "type" : "interpolation",
-                          "value" : "{{encuesta.comentario}}"
-                        },
-                        "alignment" : {
-                          "type" : "constant",
-                          "value" : "left"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 4
-                        }
-                      },
-                      "reference" : "4ab95ea0-2b85-4211-9642-4d2406c90b9d",
-                      "hasValidationError" : false,
-                      "id" : "pbText",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "allowHtml" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Recomendacion"
-                        },
-                        "text" : {
-                          "type" : "interpolation",
-                          "value" : "{{encuesta.recomendacion}}"
-                        },
-                        "alignment" : {
-                          "type" : "constant",
-                          "value" : "left"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 4
-                        }
-                      },
-                      "reference" : "d5a22e01-5341-40b5-9319-0336a227853e",
-                      "hasValidationError" : false,
-                      "id" : "pbText",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
                         "labelHidden" : {
                           "type" : "constant",
                           "value" : false
@@ -460,32 +220,17 @@
                           "type" : "constant",
                           "value" : false
                         },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
                         "cssClasses" : {
                           "type" : "constant",
                           "value" : ""
                         },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
+                        "disabled" : {
                           "type" : "constant",
                           "value" : false
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Respuesta"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
+                          "value" : "Aceptado"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -493,16 +238,12 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "encuesta.respuesta"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
+                          "value" : "preparacionProducto.aceptado"
                         }
                       },
-                      "reference" : "9eed8b66-7b8b-4220-b50f-2475a266d4c6",
+                      "reference" : "4d136908-598a-4d9d-b8b4-f5ee58601c03",
                       "hasValidationError" : false,
-                      "id" : "pbInput",
+                      "id" : "pbCheckbox",
                       "description" : ""
                     }
                   ]
@@ -584,7 +325,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "cf61a373-e014-4150-874e-aa83fea0fbd7",
+                "reference" : "4815998f-3f2f-4e5c-a24d-33a74214ca3e",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -636,7 +377,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "842e4d01-d576-4ff3-ba99-43038b7ceb61",
+                "reference" : "c0518f9c-34d1-48c0-8320-94da72838066",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -649,14 +390,14 @@
   ],
   "assets" : [
     {
-      "id" : "28db9334-360e-4017-ba0d-969fac1fbdf0",
+      "id" : "6f6a62df-f8eb-40e1-922f-e4e75aa3bf35",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "96364b66-aa92-4bfa-bcf8-bb6833d51fd4",
+      "id" : "0305daa6-a568-47ab-aaca-47b83341b801",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
@@ -665,10 +406,10 @@
   ],
   "inactiveAssets" : [ ],
   "variables" : {
-    "encuesta" : {
+    "preparacionProducto" : {
       "type" : "url",
       "value" : [
-        "../{{context.encuesta_ref.link}}"
+        "../{{context.preparacionProducto_ref.link}}"
       ],
       "exposed" : false
     },
@@ -697,11 +438,11 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.encuesta ){",
+        "if( $data.preparacionProducto ){",
         "\treturn {",
-        "\t\t//map encuesta variable to expected task contract input",
-        "\t\tencuestaInput: {",
-        "\t\t\trespuesta: $data.encuesta.respuesta !== undefined ? $data.encuesta.respuesta : null",
+        "\t\t//map preparacionProducto variable to expected task contract input",
+        "\t\tpreparacionProductoInput: {",
+        "\t\t\taceptado: $data.preparacionProducto.aceptado !== undefined ? $data.preparacionProducto.aceptado : null",
         "\t\t}",
         "\t}",
         "}"
@@ -721,17 +462,10 @@
         "id"
       ],
       "exposed" : false
-    },
-    "idProducto" : {
-      "type" : "url",
-      "value" : [
-        "../API/identity/user/{{EncuestaCalidad.idProducto}}"
-      ],
-      "exposed" : false
     }
   },
   "hasValidationError" : false,
-  "uuid" : "99cce76a-b376-48b4-b96b-5d32265aecda",
+  "uuid" : "498eb7de-f497-48aa-b6e8-8f9d9edf383f",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }

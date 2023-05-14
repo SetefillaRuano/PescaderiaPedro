@@ -31,6 +31,7 @@
                 <field type="STRING" length="255" name="nombre" nullable="true" collection="false"/>
                 <field type="INTEGER" length="255" name="cantidad" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="aceptado" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="referenciaPedido" nullable="false" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
