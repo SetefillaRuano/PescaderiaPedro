@@ -26,7 +26,9 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
-    <user userName="Setefilla Ruano">
+    <user userName="setefilla.ruano">
+      <firstName>Setefilla</firstName>
+      <lastName>Ruano</lastName>
       <personalData/>
       <professionalData/>
       <password encrypted="false">bpm</password>
@@ -43,6 +45,9 @@
     <role name="inspector">
       <displayName>Inspector</displayName>
     </role>
+    <role name="control">
+      <displayName>Control</displayName>
+    </role>
   </roles>
   <groups>
     <group name="pescaderia">
@@ -56,6 +61,9 @@
     </group>
     <group name="clientes" parentPath="/pescaderia">
       <displayName>Clientes</displayName>
+    </group>
+    <group name="ControlCalidad" parentPath="/pescaderia">
+      <displayName>ControlCalidad</displayName>
     </group>
   </groups>
   <memberships>
@@ -74,13 +82,14 @@
     <membership>
       <userName>fernando.baquero</userName>
       <roleName>inspector</roleName>
-      <groupName>trabajadores</groupName>
+      <groupName>ControlCalidad</groupName>
       <groupParentPath>/pescaderia</groupParentPath>
     </membership>
     <membership>
-      <userName>Setefilla Ruano</userName>
+      <userName>setefilla.ruano</userName>
       <roleName>empleado</roleName>
-      <groupName>pescaderia</groupName>
+      <groupName>trabajadores</groupName>
+      <groupParentPath>/pescaderia</groupParentPath>
     </membership>
   </memberships>
 </organization:Organization>
